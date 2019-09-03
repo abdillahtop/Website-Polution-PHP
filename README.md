@@ -11,11 +11,9 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Deploy Website](#deploy-website)
-- [Contributors](#contributors)
 
 ## Introduction
-Website Polusi Udara di Kota Malang adalah website untuk melihat daerah mana saja yang terkena pencemaran udara, kami membuat sebuah alat untuk mendeteksinya dengan menggunakan sensor analog dan diolah oleh arduino untuk dikirimkan ke database mysql dan ditampilkan ke website dengan mengintegrasikan API.
+Website Polusi Udara di Kota Malang adalah website untuk melihat daerah mana saja yang terkena pencemaran udara, kami membuat sebuah alat untuk mendeteksinya dengan menggunakan sensor analog dan diolah oleh arduino untuk dikirimkan ke database mysql dan ditampilkan ke website dengan marker, apabila marker hijau maka aman, apabila sedang marker akan bewarna kuning, dan untuk bahaya marker akan bewarna merah.
 Untuk pengaturan Arduino bisa baca [disini](https://github.com/abdillahtop/Arduino-Polution)
 
 ## Features
@@ -26,7 +24,9 @@ Untuk pengaturan Arduino bisa baca [disini](https://github.com/abdillahtop/Ardui
 
 ## Screenshots
 <div align="center">
-    <img width="600" src="./screenshot/web.jpg"> 
+    <img width="600" src="./screenshot/web.jpg">
+    <img width="600" src="./screenshot/co.jpg"> 
+    <img width="600" src="./screenshot/grafik.jpg"> 
 </div>
 
 ### License
